@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Files\BasicFile.cs" />
+    <Compile Include="Files\AudioFile.cs" />
+    <Compile Include="Files\IFileSizeFileTypeCreation.cs" />
+    <Compile Include="Files\IVideoPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
