@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace Mediateka.Files
 {
-    class AudioFile : BasicFile, IFileSizeFileTypeCreation
+    class AudioFile : MediaObject
 
     {
-        public string FileName { get; set; } 
-        public double FileSize {get; set; }
-        public string FileType { get; set; }
-        public DateTime Creation { get; set; }
+        public int Bitrate { get; set; }
 
-        
     }
 }

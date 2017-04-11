@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\BasicFile.cs" />
+    <Compile Include="Files\MediaObject.cs" />
     <Compile Include="Files\AudioFile.cs" />
-    <Compile Include="Files\IFileSizeFileTypeCreation.cs" />
+    <Compile Include="Files\Mediateka.cs" />
+    <Compile Include="Files\UrlFile.cs" />
+    <Compile Include="Files\ImediaObject.cs" />
     <Compile Include="Files\IVideoPlayer.cs" />
+    <Compile Include="Files\VideoFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

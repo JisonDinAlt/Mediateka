@@ -9,5 +9,6 @@ namespace Mediateka.Files
     interface IVideoPlayer
     {
         void play();
+
     }
 }

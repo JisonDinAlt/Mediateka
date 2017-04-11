@@ -5,37 +5,37 @@ using System.Text;
 using System.Threading.Tasks;
 using Mediateka.Files;
 
-namespace Mediateka
+namespace Media
 {
     class Program
     {
         static void Main(string[] args)
         {
-         
+            MediatekaObject mediatekatest = new MediatekaObject();
+
+
+            mediatekatest.Add(new AudioFile()
+            {
+                FileName = "Track1",
+                FileSize = 100,
+                Creation = new DateTime(2001, 10, 10),
+                Bitrate = 128,
+            });
+
+
+
+
         }
-
-
-
-
-        enum FileType
-        {
-            mp3,
-            jpg,
-            avi,
-            url,
-            disk,
-            series,
-            podborka,
-            sobutie
-        };
-
-
-
+ 
 
 
 
 
         
+
+       
+
+
 
     }
 }
